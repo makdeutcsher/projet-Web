@@ -1,0 +1,290 @@
+
+.logo
+{
+ width: 80%;
+ height: 10%;    
+ margin-top: 1%;
+ margin-left: 8.5%;
+ justify-content: center;
+ text-align: center;
+
+}
+ 
+.Page{
+
+display: flex;
+
+}
+
+.vertical-menu {
+    width: 15%;
+    margin-inline-start: 2%;
+    margin-top: 4%;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .content ul li {
+   
+    flex: 1 0 33%;
+    /* flex-grow: 1; */
+    display: inline-block;
+    margin-top: 14px;
+  }
+  .content {
+    
+   /* margin-inline-start: 6%;*/
+    margin-top: 4%;
+    width: 100%;
+  }
+  .login a{
+    justify-content: center;
+    text-align: center;
+
+  }
+
+
+
+  ul.cadre a {
+    background-color: #eee;
+    color: rgb(49, 15, 104);
+    font-size: 20;
+    padding: 12px;
+    text-decoration: none;
+    
+
+    flex: 1 0 33%;
+    /* flex-grow: 1; */
+    
+    
+  }
+  
+  .content a:hover {
+    background-color: #ccc;
+  }
+  
+  
+
+
+
+@keyframes animation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -1350px;
+    }
+}
+
+.cadre {
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+}
+
+
+
+.diaporama {
+    text-align: center;
+    margin: 0px auto;
+    background: black;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+.diaporama_0,.diaporama_1, .diaporama_2,  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.diaporama_0 {
+    left: 0px;
+   
+}
+.diaporama_1 {
+    left: 675px;
+   
+}
+
+.diaporama_2 {
+    left: 1350px;
+   
+}
+
+
+.images {
+    margin: 0px auto;
+    align-content: center;
+    position: absolute;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-name: animation;
+    background-color: black;
+}
+
+.images:hover {
+    animation-play-state: paused;
+}
+
+
+body{ 
+    border:3px black solid;   
+    margin: 5%;
+    
+   }
+h2{
+    color:#338fda;
+}
+
+.tri-filtre{
+    margin-left: 2%;
+
+    
+} 
+.tri{
+    float: left;
+}
+.login{
+    text-align: center;
+}
+
+.répondre {
+    background-color: #42c5f4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.répondre:hover {
+    opacity: 0.8;
+}
+ #com{
+    display: flex;    
+    justify-content: space-between;
+     text-align: center;
+     align-content: center;
+     justify-content: center;
+     margin-left: 20px;
+ }
+
+
+ button#btn-comparer {
+    color:white;
+    background-color: #008CBA;
+    font-size: 22px;
+    border-radius: 15px;
+
+}
+
+
+
+
+.delebtn {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.delebtn:hover {
+    opacity: 0.8;
+}
+
+.updbtn {
+    background-color: #42c5f4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.updbtn:hover {
+    opacity: 0.8;
+}
+.slider {
+    text-align: center;
+    margin: 0px auto;
+    background: black;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+.w3-content {
+    margin: 0px auto;
+    align-content: center;
+    background-color: black;
+    width: 80%;
+    height: 40%;
+}
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+ }
+ 
+ .styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+ }
+ 
+ .styled-select.slate {
+    background: url(../img/2e3ybe1.jpg) no-repeat right center;
+
+    height: 34px;
+    width: 240px;
+ }
+ 
+ .styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 34px;
+    width: 268px;
+ }
+ .mise_ligne{
+    color: white;padding: 14px 20px;margin: 8px 0;border: none;
+    cursor: pointer;
+    width: 100%;
+ }
+ #membre-table{
+     left: 50%;
+    align-content: center;
+    width: 50%;
+    text-align: center;
+
+ }

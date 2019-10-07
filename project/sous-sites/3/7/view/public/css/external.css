@@ -1,0 +1,280 @@
+table{
+       
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+     
+}
+a:hover  {
+    color: #000;
+}
+h1{
+    text-align: center;    
+    color:green;
+}
+table tr th{
+    background-color:pink;
+    color:red;
+    font-style: italic;
+
+}
+
+
+body{ 
+    border:3px black solid;   
+    margin: 50px;
+    padding:25px;
+   }
+
+
+    h3 {
+        text-align: center;    
+        color:red;
+        }
+        .formation {
+            display: inline;
+            margin: 10px;
+            justify-content: center;
+            align-content: center;
+        
+        }
+
+
+        .menu {
+
+           /* background-color: white;*/
+            justify-content: center;
+            /*position: fixed;*/
+            top: 0px;
+        
+        }
+        
+        #nav li {
+            display: inline-block;
+            position: relative;
+        }
+        
+        #nav li a {
+        
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        #nav > li > a:hover {
+            color: #FFF;
+            background: #0f0c3d;
+        }
+        
+        #nav ul {
+            background: #000;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 150px;
+            margin-left: -75px;
+        }
+        
+        #nav ul li a {
+            color: #FFF;
+            padding: 10px;
+        }
+        
+        #nav li:hover ul {
+            display: block;
+        }
+        
+        .fixed-menu {
+            margin-right: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+        
+        .fixed-menu + .content {
+            padding-top: 102px;
+        }
+        
+        
+
+@keyframes animation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -2040px;
+    }
+}
+
+
+.diaporama {
+    text-align: center;
+    margin: 0px auto;
+    background: black;
+    width: 660px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+
+.diaporama_0,.diaporama_1, .diaporama_2, .diaporama_3 {
+    position: absolute;
+    width: 660px;
+    height: 300px;
+}
+
+.diaporama_0 {
+    left: 0px;
+}
+.diaporama_1 {
+    left: 675px;
+}
+
+.diaporama_2 {
+    left: 1350px;
+}
+
+.diaporama_3 {
+    left: 2040px;
+}
+
+
+.images {
+    margin: 0px auto;
+    align-content: center;
+    position: absolute;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: animation;
+    background-color: black;
+}
+
+.images:hover {
+    animation-play-state: paused;
+}
+
+
+/* Bordered form */
+#my_form {
+    border: 3px solid white;
+    width: 50%;
+}
+#logout_form {
+    display: flex;
+    justify-content: center;
+}
+#GF {
+    text-align: center;
+    justify-content: center;
+}
+#ft{
+    display: flex;
+    justify-content: center;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.loginbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.loginbtn:hover {
+    opacity: 0.8;
+}
+
+.delebtn {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.delebtn:hover {
+    opacity: 0.8;
+}
+
+.updbtn {
+    background-color: #42c5f4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.updbtn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.formation_input{
+    width: 50%;
+}
